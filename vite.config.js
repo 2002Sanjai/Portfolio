@@ -11,6 +11,10 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  css: {
+    minify: 'esbuild'
+  },
+
 
   resolve: {
     alias: {
