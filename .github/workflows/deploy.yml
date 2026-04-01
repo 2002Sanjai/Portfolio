@@ -25,7 +25,10 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies 📦
-        run: npm install
+        run: |
+          rm -f package-lock.json
+          npm install --include=optional
+
 
 
       - name: Build 🏗️
