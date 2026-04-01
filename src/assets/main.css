@@ -96,8 +96,9 @@ ul {
 /* Glassmorphism utility */
 .glass-panel {
   background: rgba(255, 255, 255, 0.05); /* Slightly more opaque for better blur rendering */
-  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+
   border: 1px solid var(--border-light);
   border-radius: 16px;
   transform: translateZ(0); /* Force Stacking Context */
