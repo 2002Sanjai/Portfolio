@@ -1,7 +1,7 @@
 {
   "name": "portfolio-sanjai",
-
   "version": "0.0.0",
+  "homepage": "https://2002Sanjai.github.io/Portfolio/",
   "private": true,
   "type": "module",
   "scripts": {
